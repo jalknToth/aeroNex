@@ -22,9 +22,7 @@ createStructure() {
     touch src/controllers/{auth.py,dash.py,map.py,booking.py}
 
     # Create placeholder files for static
-    touch static/css/style.css
-    touch static/js/script.js
-    touch static/img/favicon.png
+    touch static/css/style.css static/js/script.js static/img/favicon.png}
 
     # Create placeholder files for templates
     touch templates/{base.html,login.html,register.html,dash.html,map.html,booking.html,payment.html}
